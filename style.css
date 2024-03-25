@@ -3,4 +3,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.container header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container form {
+    position: relative;
+    min-height: 480px;
+    background-color: #f4f4f4;
+    margin-top: 16px;
 }
